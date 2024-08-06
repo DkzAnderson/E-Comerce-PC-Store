@@ -16,11 +16,11 @@ export const ProductList = () => {
   }
 
   const styles = {
-    main : 'w-[94%] sm:w-full min-h-[84vh] flex flex-col bg-primary-200 rounded-[2rem] p-5 z-20',
+    main : 'w-[94%] sm:w-full min-h-[80vh] max-h-[800px] flex flex-col bg-primary-200 rounded-[2rem] p-5 z-20',
     title: 'mb-10 text-2xl font-bold text-primary-100',
 
     ul : 'list w-full pb-5 place-items-center grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 items-center sm:items-start self-center gap-x-4 gap-y-8 md:gap-5 overflow-auto ',
-    li : 'w-[160px] h-[240px] sm:h-[280px] sm:w-[180px] md:w-[220px] md:h-[320px]'
+    li : 'w-[160px] h-[240px] sm:h-[280px] sm:w-[180px] md:w-[200px] md:h-[320px] lg:w-[250px]'
 
   }
 
