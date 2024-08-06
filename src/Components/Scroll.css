@@ -1,0 +1,20 @@
+.list::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    display: flex;  /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.list::-webkit-scrollbar-thumb {
+    background: #b427cb;
+    background: linear-gradient(0deg, #b427cb 0%, #103397 100%);
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.list::-webkit-scrollbar-thumb:hover {
+    background: #b427cb;
+    background: linear-gradient(180deg, #b427cb 0%, #0fb1ae 100%);
+
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
